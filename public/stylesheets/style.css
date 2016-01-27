@@ -1,0 +1,172 @@
+body {
+	background-color: transparent;
+	color: white;
+  font-family: 'Josefin Sans', 'Lucida Grande', Helvetica, Arial, sans-serif;
+  -webkit-background-size: cover; /* For WebKit*/
+  -moz-background-size: cover;    /* Mozilla*/
+  -o-background-size: cover;      /* Opera*/
+	transition: background-size 2s ease-in;
+	-moz-transition: background-size 2s ease-in;
+	-ms-transition: background-size 2s ease-in;
+	-o-transition: background-size 2s ease-in;
+	-webkit-transition: background-size 2s ease-in;
+	background-attachment: fixed;
+	background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.index {
+	background-image: url('../images/background_pic.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 4vmin;
+	height: 100%;
+	width: 100%;
+}
+
+.experience {
+	background-image: url('../images/background_triangle.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 4vmin;
+	height: 100%;
+	width: 100%;
+	background-size: 100%;
+}
+
+ul {
+	list-style: none;
+	color: white;
+}
+
+ul.bullet {
+	list-style: circle;
+	color: white;
+}
+
+#prof-pic {
+	height: 8vmin;
+	border-radius: 50%;
+}
+
+.btn {
+	background-color: #95a5a6;
+	padding: 1vmin;
+	border-radius: 2vmin;
+	opacity: .8;
+	color: white;
+	font-size: 2vmin;
+}
+
+.btn:hover,
+.btn:active,
+.btn:focus {
+	background-color: #7f8c8d;
+	padding: 1vmin;
+	border-radius: 2vmin;
+	opacity: .8;
+	color: white;
+}
+
+.center {
+	text-align: center;
+}
+
+.nav {
+	background-color: white;
+}
+
+.text-box {
+	background-color: #16a085;
+	border-radius: 3vmin;
+	margin: 4vmin;
+	opacity: .8;
+	padding: 3vmin;
+}
+
+.grey-text-box {
+	background: rgb(149, 165, 166);
+	background: rgba(149, 165, 166, 0.8);
+	border-radius: 3vmin;
+	margin: 4vmin;
+	margin-left: 0;
+	margin-right: 0;
+	padding: 3vmin;
+}
+
+.big-name {
+	color: white;
+	font-size: 10vmin;
+	font-weight: 700;
+	opacity: 1;
+	padding: 1vmin;
+}
+
+[class*="col-"] {
+  padding-left: 2vmin !important;
+  padding-right: 2vmin !important;
+}
+
+.dropdown-menu {
+	background-color: white;
+	opacity: .7;
+}
+
+.dropdown-menu>li>a {
+	font-weight: 700;
+}
+
+h1 {
+	color: white;
+	font-family: 'Philosopher', sans-serif;
+	font-size: 5vmin;
+	margin: 0px;
+}
+
+h2 {
+	color: white;
+	font-family: 'Philosopher', sans-serif;
+	font-size: 3.5vmin;
+	margin: 0px;
+}
+
+p {
+	color: white;
+	font-size: 3vmin;
+	margin-top: 2vmin;
+	margin-bottom: 0;
+}
+
+label {
+	font-size: 3vmin;
+	color: white;
+}
+
+.width {
+	display: inline-table;
+	width: 100%;
+	background: rgb(149, 165, 166);
+	background: rgba(149, 165, 166, 0.8);
+	border-radius: 3vmin;
+	padding: 3vmin;
+}
+
+a.underline,
+a.underline:hover,
+a.underline:visited,
+a.underline:focus,
+a.underline:active {
+	color: white;
+	text-decoration: underline;
+}
+a,
+a:hover,
+a:visited,
+a:focus,
+a:active {
+	color: white;
+	text-decoration: none;
+}
