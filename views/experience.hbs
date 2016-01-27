@@ -1,31 +1,23 @@
 <div class='row center'>
-	<div class='col-md-4 col-sm-4 col-lg-4 col-xs-4'>
-		<a href='/'>
-			<div class='col-md-3 col-sm-3 col-lg-3 col-xs-3'>
-				<img id='prof-pic' src='/images/profile_picture.png'></img>
-			</div>
-			<h2 style='text-align:left; margin-top: 2vmin;'>Sarah Shader</h2>
-		</a>
-	</div>
-	<div class='col-md-2 col-sm-2 col-lg-2 col-xs-2'></div>
-	<div class='col-md-2 col-sm-2 col-lg-2 col-xs-2'>
-		<a class='btn col-md-12 col-sm-12 col-lg-12 col-xs-12'>My Experience</a>
-	</div>
-	<div class='dropdown col-md-2 col-sm-2 col-lg-2 col-xs-2'>
-  	<a class='btn dropdown-toggle col-md-12 col-sm-12 col-lg-12 col-xs-12' id='myprojects' data-toggle='dropdown' aria-haspopup="true" aria-expanded="true">
-    My Projects
-    <span class="caret"></span>
-  	</a>
+			<a href='/' style='text-align:left' class='btn-group col-md-6 col-sm-6 col-lg-6 col-xs-6'>
+				<button class='btn-transparent'><img id='prof-pic' src='/images/profile_picture.png'></img></button>
+				<button class='btn-transparent'><h2 style='margin-top: 2vmin; text-align: left;'>Sarah Shader</h2></button>
+			</a>
+	<div class='dropdown col-md-2 col-sm-2 col-lg-2 col-xs-2'><!--
+  	<a class='btn center dropdown-toggle col-md-12 col-sm-12 col-lg-12 col-xs-12' id='myprojects' data-toggle='dropdown' aria-haspopup="true" aria-expanded="true">My Projects<span class="caret"></span></a>
   	<ul class="dropdown-menu" aria-labelledby='myprojects'>
 	    <li><a href="#">Pset Buddies</a></li>
 	    <li><a href="#">Research Science Institute</a></li>
 	    <li><a href="#">Weighted Catalan Numbers</a></li>
 	    <li role="separator" class="divider"></li>
 	    <li><a href="#">Just for fun!</a></li>
-	  </ul>
+	  </ul> -->
 	</div>
 	<div class='col-md-2 col-sm-2 col-lg-2 col-xs-2'>
-		<a class='btn col-md-12 col-sm-12 col-lg-12 col-xs-12'>Contact Me</a>
+		<a class='btn col-md-12 col-sm-12 col-lg-12 col-xs-12'>My Experience</a>
+	</div>
+	<div class='col-md-2 col-sm-2 col-lg-2 col-xs-2'>
+		<a href='/contact' class='btn col-md-12 col-sm-12 col-lg-12 col-xs-12'>Contact Me</a>
 	</div>
 </div>
 
@@ -34,16 +26,17 @@
 	<p>
 		<div class='col-md-6 col-sm-6 col-lg-6 col-xs-6'>
 			Current classes:
-			<ul>
-				<li>Elements of Software Construction (6.005)</li>
-				<li>Advanced Algorithms (6.046)</li>
-				<li>Introduction to Machine Learning (6.036)</li>
-				<li>Introduction to Probability and Random Variables (18.440)</li>
+			<ul class='bullet'>
+				<li>Inference and Information (6.437)</li>
+				<li>Advanced Algorithms (6.854)</li>
+				<li>Network and Computer Security (6.857)</li>
+				<li>Computer System Engineering (6.033)</li>
+				<li>Oral Communication (6.UAT)</li>
 			</ul>
 		</div>
 		<div class='col-md-6 col-sm-6 col-lg-6 col-xs-6'>
 			Past classes:
-			<ul>
+			<ul class='bullet'>
 				<li>Elements of Software Construction (6.005)</li>
 				<li>Advanced Algorithms (6.046)</li>
 				<li>Introduction to Machine Learning (6.036)</li>
@@ -55,10 +48,10 @@
 </div>
 
 <div class='row'>
-	<div class='col-md-4 col-sm-4 col-lg-4 col-xs-4'>
+	<div class='col-md-4 col-sm-12 col-lg-4 col-xs-12'>
 		<div class='width'>
 			<h2>Pset Buddies</h2>
-			Created a web app for MIT students to match with fellow students in their classes based on progress on problem sets.
+			Created a <a class='underline' href='http://psetbuddies.herokuapp.com/'> web app</a> for MIT students to match with fellow students in their classes based on progress on problem sets.
 			<ul class='bullet'>
 				<li>Semifinalist for the 6.148 Web App Competition Rookie Division</li>
 				<li>Backend technologies: Node.js and MongoDB</li>
@@ -66,7 +59,7 @@
 			</ul>
 		</div>
 	</div>
-	<div class='col-md-4 col-sm-4 col-lg-4 col-xs-4'>
+	<div class='col-md-4 col-sm-12 col-lg-4 col-xs-12'>
 		<div class='width'>
 			<h2>Research Science Institute Counselor</h2>
 			Selected based on leadership abilities and academic excellence to be one of six counselor.
@@ -77,7 +70,7 @@
 			</ul>
 		</div>
 	</div>
-	<div class='col-md-4 col-sm-4 col-lg-4 col-xs-4'>
+	<div class='col-md-4 col-sm-12 col-lg-4 col-xs-12'>
 		<div class='width'>
 			<h2>Weighted Catalan Numbers</h2>
 			Conducted mathematical research under an MIT graduate student and partially resolved an open problem in enumerative combinatorics.

@@ -11,14 +11,15 @@ body {
 	-o-transition: background-size 2s ease-in;
 	-webkit-transition: background-size 2s ease-in;
 	background-attachment: fixed;
-	background-position: center;
+	background-position: 75%;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  white-space: break-word;
 }
 
-.index {
+.index, .contact {
 	background-image: url('../images/background_pic.png');
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -34,7 +35,8 @@ body {
 	padding: 4vmin;
 	height: 100%;
 	width: 100%;
-	background-size: 100%;
+	background-attachment: fixed;
+	background-position: center;
 }
 
 ul {
@@ -45,6 +47,7 @@ ul {
 ul.bullet {
 	list-style: circle;
 	color: white;
+	padding-left: 6vmin;
 }
 
 #prof-pic {
@@ -59,6 +62,12 @@ ul.bullet {
 	opacity: .8;
 	color: white;
 	font-size: 2vmin;
+	white-space: pre-wrap;
+}
+
+.btn-transparent {
+	background-color: transparent;
+	border-color: transparent;
 }
 
 .btn:hover,
@@ -68,6 +77,14 @@ ul.bullet {
 	padding: 1vmin;
 	border-radius: 2vmin;
 	opacity: .8;
+	color: white;
+}
+
+
+.btn-transparent:hover,
+.btn-transparent:active,
+.btn-transparent:focus {
+	background-color: transparent;
 	color: white;
 }
 
@@ -152,6 +169,7 @@ label {
 	background: rgba(149, 165, 166, 0.8);
 	border-radius: 3vmin;
 	padding: 3vmin;
+	margin-bottom: 3vmin;
 }
 
 a.underline,
@@ -169,4 +187,15 @@ a:focus,
 a:active {
 	color: white;
 	text-decoration: none;
+	border: transparent;
+}
+
+button,
+button:hover,
+button:visited,
+button:focus,
+button:active {
+	color: white;
+	text-decoration: none;
+	outline: none;
 }
