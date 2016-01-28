@@ -21,4 +21,9 @@ router.get('/psetbuddies', function(req, res, next) {
 		title: 'Sarah Shader' });
 });
 
+router.get('/rsi', function(req, res, next) {
+	res.render('rsi', { background: 'rsi', 
+		title: 'Sarah Shader' });
+});
+
 module.exports = router;

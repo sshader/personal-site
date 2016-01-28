@@ -28,7 +28,7 @@ body {
 	width: 100%;
 }
 
-.experience, .psetbuddies {
+.experience, .psetbuddies, .rsi {
 	background-image: url('../images/background_triangle.png');
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -58,6 +58,7 @@ ul.bullet {
 .image {
 	height: 50vmin;
 	width: 80vmin;
+	margin-bottom: 10vmin;
 }
 
 #prof-pic {
@@ -75,6 +76,11 @@ ul.bullet {
 	white-space: pre-wrap;
 }
 
+.box-shadow {
+	 -webkit-box-shadow: #16a085 0px 0 10px;
+	 -moz-box-shadow: #16a085 0 0 10px;
+	 box-shadow: #16a085 0 0 10px;
+}
 
 .btn-green {
 	background-color: #16a085;

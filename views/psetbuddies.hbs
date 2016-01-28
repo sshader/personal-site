@@ -3,15 +3,15 @@
         <button class='btn-transparent'><img id='prof-pic' src='/images/profile_picture.png'></img></button>
         <button class='btn-transparent'><h2 style='margin-top: 2vmin; text-align: left;'>Sarah Shader</h2></button>
       </a>
-  <div class='dropdown col-md-2 col-sm-2 col-lg-2 col-xs-2'><!--
+  <div class='dropdown col-md-2 col-sm-2 col-lg-2 col-xs-2'>
     <a class='btn center dropdown-toggle col-md-12 col-sm-12 col-lg-12 col-xs-12' id='myprojects' data-toggle='dropdown' aria-haspopup="true" aria-expanded="true">My Projects<span class="caret"></span></a>
     <ul class="dropdown-menu" aria-labelledby='myprojects'>
-      <li><a href="#">Pset Buddies</a></li>
-      <li><a href="#">Research Science Institute</a></li>
-      <li><a href="#">Weighted Catalan Numbers</a></li>
-      <li role="separator" class="divider"></li>
-      <li><a href="#">Just for fun!</a></li>
-    </ul> -->
+      <li><a href="/psetbuddies">Pset Buddies</a></li>
+      <li><a href="/rsi">Research Science Institute</a></li>
+      <li><a href='https://www.youtube.com/watch?v=da7OgMkI_RM' target='_blank'>Weighted Catalan Numbers</a></li>
+      <!--<li role="separator" class="divider"></li>
+      <li><a href="#">Just for fun!</a></li>-->
+    </ul>
   </div>
   <div class='col-md-2 col-sm-2 col-lg-2 col-xs-2'>
     <a href='/experience' class='btn col-md-12 col-sm-12 col-lg-12 col-xs-12'>My Experience</a>
@@ -24,10 +24,14 @@
 <div class='row'>
   <div class='col-md-1 col-sm-1 col-lg-1 col-xs-1'></div>
   <div class='grey-text-box col-md-10 col-sm-10 col-lg-10 col-xs-10'>
-    <h1><a href='http://psetbuddies.herokuapp.com' class='underline' target='_blank'>Pset Buddies</a></h1>
+    <h1 class='row'>
+      <a class=' col-md-10 col-sm-10 col-lg-10 col-xs-10'>Pset Buddies</a>
+      <a href='http://psetbuddies.herokuapp.com' class='center col-md-1 col-sm-1 col-lg-1 col-xs-1' target='_blank' data-toggle="tooltip" data-placement="top" title="See the website!"><i class="desktop icon"></i></a>
+      <a href='https://github.mit.edu/mit6148-2016/jlluo-sshader-6148' class='center col-md-1 col-sm-1 col-lg-1 col-xs-1' target='_blank' data-toggle="tooltip" data-placement="top" title="See the code!"><i class="github square icon"></i></a>
+    </h1>
     <hr>
     <div class='row center'>
-      <div class='col-md-3 col-sm-3 col-lg-3 col-xs-3'>
+      <div class='col-md-2 col-sm-2 col-lg-2 col-xs-2'>
         <h2 style='text-align:right'>Demos:</h2>
       </div>
       <div class='col-md-3 col-sm-3 col-lg-3 col-xs-3'>
@@ -36,12 +40,27 @@
       <div class='col-md-3 col-sm-3 col-lg-3 col-xs-3'>
         <a id='classProf' class='btn-green col-md-12 col-sm-12 col-lg-12 col-xs-12'>Class Profile</a>
       </div>
-      <div class='col-md-3 col-sm-3 col-lg-3 col-xs-3'>
+      <div class='col-md-3 col-sm-4 col-lg-3 col-xs-4'>
         <a id='matching' class='btn-green col-md-12 col-sm-12 col-lg-12 col-xs-12'>Finding Buddies</a>
       </div>
     </div>
-    <ul style='margin-top:5vmin' class='bullet'>
-      <li>Pset Buddies is geared towards MIT students who are looking for other students to collaborate with for problem sets.</li>
+    <h2 style='margin-top:5vmin'>What it is:</h2>
+    <ul class='bullet'>
+      <li>Pset Buddies is geared towards MIT students who are looking for other students to collaborate with for problem sets and other assignments</li>
+      <li>Users are encouraged to enter their progress on the current assignment using a simple form before entering a matching pool</li>
+      <li>Users have various options to use to filter potential buddies</li>
+      <li>Two users become "buddies" if there is a mutual match, and their contact information is shared</li>
+    </ul>
+    <h2 style='margin-top:5vmin'>Backend:</h2>
+    <ul class='bullet'>
+      <li>The app was built using Node.js and Express</li>
+      <li>MongoDB was used to store user information</li>
+      <li>Passport.js and Nodemailer were also used to provide user login and email notification</li>
+    </ul>
+    <h2 style='margin-top:5vmin'>Frontend:</h2>
+    <ul class='bullet'>
+      <li>Express/Handlebars was used for templating</li>
+      <li>Bootstrap was used as the frontend framework</li>
     </ul>
   </div>
 </div>
