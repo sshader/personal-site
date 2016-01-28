@@ -3,7 +3,19 @@ $(document).ready(function() {
         $('[data-toggle="tooltip"]').tooltip()
     });
 
-    $('.btn-green').on('click', function() {
-    	$('.modal').modal();
+    $('#general').on('click', function() {
+    	$('#generalModal').modal('show');
+    });
+
+    $('#classProf').on('click', function() {
+    	$('#classModal').modal('show');
+    });
+
+    $('#matching').on('click', function() {
+    	$('#matchingModal').modal('show');
+    });
+
+    $('.remove.icon').on('click', function() {
+    	$('.ui.modal').modal('hide');
     });
 });

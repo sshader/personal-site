@@ -50,6 +50,16 @@ ul.bullet {
 	padding-left: 6vmin;
 }
 
+.ui.modal {
+	margin: -40vmin;
+	width: 90vmin;
+}
+
+.image {
+	height: 50vmin;
+	width: 80vmin;
+}
+
 #prof-pic {
 	height: 8vmin;
 	border-radius: 50%;
