@@ -16,4 +16,9 @@ router.get('/contact', function(req, res, next) {
 		title: 'Sarah Shader' });
 });
 
+router.get('/psetbuddies', function(req, res, next) {
+	res.render('psetbuddies', { background: 'psetbuddies', 
+		title: 'Sarah Shader' });
+});
+
 module.exports = router;
