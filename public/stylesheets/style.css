@@ -42,12 +42,14 @@ body {
 ul {
 	list-style: none;
 	color: white;
+	font-size: 3vmin;
 }
 
 ul.bullet {
 	list-style: circle;
 	color: white;
 	padding-left: 6vmin;
+	font-size: 3vmin;
 }
 
 .ui.modal {
