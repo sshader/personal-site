@@ -17,6 +17,7 @@ body {
   -o-background-size: cover;
   background-size: cover;
   white-space: break-word;
+  font-size: 4vmin;
 }
 
 .index, .contact {
